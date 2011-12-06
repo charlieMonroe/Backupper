@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E36576148B7CFC0070B23C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E36575148B7CFC0070B23C /* main.c */; };
+		07E36578148B7CFC0070B23C /* Backupper.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07E36577148B7CFC0070B23C /* Backupper.1 */; };
+		07E3657F148B7D1F0070B23C /* FCFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E3657E148B7D1F0070B23C /* FCFile.c */; };
+		07E36586148B84EC0070B23C /* FCArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E36585148B84EC0070B23C /* FCArray.c */; };
+		07E3658F148BA40D0070B23C /* FCString.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E3658E148BA40D0070B23C /* FCString.c */; };
+		07E36593148BB5390070B23C /* FCOption.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E36592148BB5390070B23C /* FCOption.c */; };
+		07E36597148BC3B70070B23C /* FCUserDefaults.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E36596148BC3B70070B23C /* FCUserDefaults.c */; };
+		07E3659C148BCA5C0070B23C /* FCFileReadStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E3659B148BCA5C0070B23C /* FCFileReadStream.c */; };
+		07E3659F148BD75B0070B23C /* FCOptionValue.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E3659E148BD75B0070B23C /* FCOptionValue.c */; };
+		07E365A2148C1FA20070B23C /* FCFileWriteStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E365A1148C1FA20070B23C /* FCFileWriteStream.c */; };
+		07E365B6148CC1EE0070B23C /* FCServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E365B5148CC1EE0070B23C /* FCServer.c */; };
+		07E365BE148CE0A90070B23C /* FCBackupperServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E365BD148CE0A90070B23C /* FCBackupperServer.c */; };
+		07E365C1148CF86C0070B23C /* FCFileListing.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E365C0148CF86C0070B23C /* FCFileListing.c */; };
+		07E365C4148D582D0070B23C /* FCClient.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E365C3148D582D0070B23C /* FCClient.c */; };
+		07E365C7148D5E510070B23C /* FCBackupperClient.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E365C6148D5E510070B23C /* FCBackupperClient.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07E3656F148B7CFC0070B23C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				07E36578148B7CFC0070B23C /* Backupper.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07E36571148B7CFC0070B23C /* Backupper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Backupper; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E36575148B7CFC0070B23C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		07E36577148B7CFC0070B23C /* Backupper.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Backupper.1; sourceTree = "<group>"; };
+		07E3657E148B7D1F0070B23C /* FCFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FCFile.c; sourceTree = "<group>"; };
+		07E36580148B7DEE0070B23C /* FCFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCFile.h; sourceTree = "<group>"; };
+		07E36583148B7F3C0070B23C /* FCRelease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCRelease.h; sourceTree = "<group>"; };
+		07E36584148B80650070B23C /* FCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCTypes.h; sourceTree = "<group>"; };
+		07E36585148B84EC0070B23C /* FCArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FCArray.c; sourceTree = "<group>"; };
+		07E36588148B84FE0070B23C /* FCArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCArray.h; sourceTree = "<group>"; };
+		07E3658D148BA38D0070B23C /* FCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCString.h; sourceTree = "<group>"; };
+		07E3658E148BA40D0070B23C /* FCString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FCString.c; sourceTree = "<group>"; };
+		07E36591148BB4880070B23C /* FCOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCOption.h; sourceTree = "<group>"; };
+		07E36592148BB5390070B23C /* FCOption.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FCOption.c; sourceTree = "<group>"; };
+		07E36596148BC3B70070B23C /* FCUserDefaults.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FCUserDefaults.c; sourceTree = "<group>"; };
+		07E36599148BC3CC0070B23C /* FCUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCUserDefaults.h; sourceTree = "<group>"; };
+		07E3659A148BC7580070B23C /* FCFileReadStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCFileReadStream.h; sourceTree = "<group>"; };
+		07E3659B148BCA5C0070B23C /* FCFileReadStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FCFileReadStream.c; sourceTree = "<group>"; };
+		07E3659D148BD1120070B23C /* FCOptionValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCOptionValue.h; sourceTree = "<group>"; };
+		07E3659E148BD75B0070B23C /* FCOptionValue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FCOptionValue.c; sourceTree = "<group>"; };
+		07E365A0148C1EEA0070B23C /* FCFileWriteStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCFileWriteStream.h; sourceTree = "<group>"; };
+		07E365A1148C1FA20070B23C /* FCFileWriteStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FCFileWriteStream.c; sourceTree = "<group>"; };
+		07E365B3148CC15E0070B23C /* FCServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCServer.h; sourceTree = "<group>"; };
+		07E365B5148CC1EE0070B23C /* FCServer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FCServer.c; sourceTree = "<group>"; };
+		07E365BC148CE0760070B23C /* FCBackupperServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCBackupperServer.h; sourceTree = "<group>"; };
+		07E365BD148CE0A90070B23C /* FCBackupperServer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FCBackupperServer.c; sourceTree = "<group>"; };
+		07E365BF148CF7080070B23C /* FCFileListing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCFileListing.h; sourceTree = "<group>"; };
+		07E365C0148CF86C0070B23C /* FCFileListing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FCFileListing.c; sourceTree = "<group>"; };
+		07E365C2148D52190070B23C /* FCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCClient.h; sourceTree = "<group>"; };
+		07E365C3148D582D0070B23C /* FCClient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FCClient.c; sourceTree = "<group>"; };
+		07E365C5148D5E310070B23C /* FCBackupperClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCBackupperClient.h; sourceTree = "<group>"; };
+		07E365C6148D5E510070B23C /* FCBackupperClient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FCBackupperClient.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07E3656E148B7CFC0070B23C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E36566148B7CFC0070B23C = {
+			isa = PBXGroup;
+			children = (
+				07E36574148B7CFC0070B23C /* Backupper */,
+				07E36572148B7CFC0070B23C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07E36572148B7CFC0070B23C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07E36571148B7CFC0070B23C /* Backupper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07E36574148B7CFC0070B23C /* Backupper */ = {
+			isa = PBXGroup;
+			children = (
+				07E36575148B7CFC0070B23C /* main.c */,
+				07E365C5148D5E310070B23C /* FCBackupperClient.h */,
+				07E365C6148D5E510070B23C /* FCBackupperClient.c */,
+				07E365BC148CE0760070B23C /* FCBackupperServer.h */,
+				07E365BD148CE0A90070B23C /* FCBackupperServer.c */,
+				07E365BF148CF7080070B23C /* FCFileListing.h */,
+				07E365C0148CF86C0070B23C /* FCFileListing.c */,
+				07E365BB148CE05B0070B23C /* FCLib */,
+				07E36577148B7CFC0070B23C /* Backupper.1 */,
+			);
+			path = Backupper;
+			sourceTree = "<group>";
+		};
+		07E365BB148CE05B0070B23C /* FCLib */ = {
+			isa = PBXGroup;
+			children = (
+				07E36588148B84FE0070B23C /* FCArray.h */,
+				07E36585148B84EC0070B23C /* FCArray.c */,
+				07E365C2148D52190070B23C /* FCClient.h */,
+				07E365C3148D582D0070B23C /* FCClient.c */,
+				07E36580148B7DEE0070B23C /* FCFile.h */,
+				07E3657E148B7D1F0070B23C /* FCFile.c */,
+				07E3659A148BC7580070B23C /* FCFileReadStream.h */,
+				07E3659B148BCA5C0070B23C /* FCFileReadStream.c */,
+				07E365A0148C1EEA0070B23C /* FCFileWriteStream.h */,
+				07E365A1148C1FA20070B23C /* FCFileWriteStream.c */,
+				07E36591148BB4880070B23C /* FCOption.h */,
+				07E36592148BB5390070B23C /* FCOption.c */,
+				07E3659D148BD1120070B23C /* FCOptionValue.h */,
+				07E3659E148BD75B0070B23C /* FCOptionValue.c */,
+				07E36583148B7F3C0070B23C /* FCRelease.h */,
+				07E365B3148CC15E0070B23C /* FCServer.h */,
+				07E365B5148CC1EE0070B23C /* FCServer.c */,
+				07E3658D148BA38D0070B23C /* FCString.h */,
+				07E3658E148BA40D0070B23C /* FCString.c */,
+				07E36584148B80650070B23C /* FCTypes.h */,
+				07E36599148BC3CC0070B23C /* FCUserDefaults.h */,
+				07E36596148BC3B70070B23C /* FCUserDefaults.c */,
+			);
+			name = FCLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07E36570148B7CFC0070B23C /* Backupper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E3657B148B7CFC0070B23C /* Build configuration list for PBXNativeTarget "Backupper" */;
+			buildPhases = (
+				07E3656D148B7CFC0070B23C /* Sources */,
+				07E3656E148B7CFC0070B23C /* Frameworks */,
+				07E3656F148B7CFC0070B23C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Backupper;
+			productName = Backupper;
+			productReference = 07E36571148B7CFC0070B23C /* Backupper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07E36568148B7CFC0070B23C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 07E3656B148B7CFC0070B23C /* Build configuration list for PBXProject "Backupper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07E36566148B7CFC0070B23C;
+			productRefGroup = 07E36572148B7CFC0070B23C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07E36570148B7CFC0070B23C /* Backupper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07E3656D148B7CFC0070B23C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E36576148B7CFC0070B23C /* main.c in Sources */,
+				07E3657F148B7D1F0070B23C /* FCFile.c in Sources */,
+				07E36586148B84EC0070B23C /* FCArray.c in Sources */,
+				07E3658F148BA40D0070B23C /* FCString.c in Sources */,
+				07E36593148BB5390070B23C /* FCOption.c in Sources */,
+				07E36597148BC3B70070B23C /* FCUserDefaults.c in Sources */,
+				07E3659C148BCA5C0070B23C /* FCFileReadStream.c in Sources */,
+				07E3659F148BD75B0070B23C /* FCOptionValue.c in Sources */,
+				07E365A2148C1FA20070B23C /* FCFileWriteStream.c in Sources */,
+				07E365B6148CC1EE0070B23C /* FCServer.c in Sources */,
+				07E365BE148CE0A90070B23C /* FCBackupperServer.c in Sources */,
+				07E365C1148CF86C0070B23C /* FCFileListing.c in Sources */,
+				07E365C4148D582D0070B23C /* FCClient.c in Sources */,
+				07E365C7148D5E510070B23C /* FCBackupperClient.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07E36579148B7CFC0070B23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07E3657A148B7CFC0070B23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07E3657C148B7CFC0070B23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07E3657D148B7CFC0070B23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07E3656B148B7CFC0070B23C /* Build configuration list for PBXProject "Backupper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E36579148B7CFC0070B23C /* Debug */,
+				07E3657A148B7CFC0070B23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07E3657B148B7CFC0070B23C /* Build configuration list for PBXNativeTarget "Backupper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E3657C148B7CFC0070B23C /* Debug */,
+				07E3657D148B7CFC0070B23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07E36568148B7CFC0070B23C /* Project object */;
+}
